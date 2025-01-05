@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 
+# Solves the following problem: https://rosalind.info/problems/revp/
 input = "C:/Users/Ben/Downloads/rosalind_revp.txt"
 complement = {"A" : "T", "T" : "A", "G" : "C", "C" : "G", "a" : "t", "t" : "a", "g" : "c", "c" : "g", "N" : "N", "n" : "N"}
 
