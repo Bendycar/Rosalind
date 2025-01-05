@@ -11,7 +11,7 @@ def reverse_complement(DNA: str) -> str:
     return RC
 
 def check_reverse_palindrome(DNA: str) -> bool:
-    if len(DNA) >= 4 and len(DNA) <= 12: #This line is unnecessary when used in main(), but is left in case this is ever used elsewhere. Problem parameters state length must be between 4 and 12bp.
+    if len(DNA) >= 4 and len(DNA) <= 12: #This line is unnecessary when used in main(), but is left in case this is ever used elsewhere. Problem states length must be between 4 and 12bp.
         return DNA == reverse_complement(DNA)
     return False
     
